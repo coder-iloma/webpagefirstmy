@@ -1,0 +1,14 @@
+header{
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	color: white;
+	background-color: black;
+	text-align: right;
+}
+
+#image1{
+	position: relative;
+	border: 1px solid black;
+}
