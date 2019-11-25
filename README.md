@@ -1,2 +1,4 @@
 # webpagefirstmy
-This the first webpage that I have designed using HTML/CSS. This is my portfolio.
+This the first webpage that I am designing using HTML/CSS.
+It's currently a work in progress.
+Hope to finish it ASAP.
