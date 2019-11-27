@@ -8,7 +8,49 @@ header{
 	text-align: right;
 }
 
-#image1{
-	position: relative;
-	border: 1px solid black;
+#one{
+	margin-left: -8px;
+	top: 124px;
+	position: fixed;
+	float: left;
+}
+
+#three{
+	margin-top: -3px;
+	border: 1px solid green;
+	margin-bottom: -110px;
+}
+
+#three{
+	font-family: URW Chancery L;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#two{
+	border: 2px solid red;
+	margin-top: 116px;
+	margin-left: 247px;
+	margin-right: -8px;
+	position: fixed;
+}
+
+#fourth ul{
+	list-style-type: none;
+}
+
+#fourth li{
+	display: inline;
+}
+
+#fourth{
+	position: fixed;
+	margin-left: -8px;
+	margin-top: 0px;
+	margin-right: -8px;
+	border: 2px solid black;
+	padding-left: 220px;
+	font-family: URW Chancery L;
+	font-size: 20px;
+	font-weight: bolder;
 }
