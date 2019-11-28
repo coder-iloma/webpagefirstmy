@@ -1,6 +1,6 @@
 header{
 	opacity: 0.9;
-	text-shadow: 3px 3px 3px #00a3e3;
+	text-shadow: 3px 3px 3px #f69322;
 	font-family: URW Chancery L;
 	font-size: 20px;
 	top: 0;
@@ -16,14 +16,15 @@ header{
 
 .one{
 	margin-left: -8px;
-	top: 124px;
+	top: 140px;
 	position: fixed;
 	float: left;
 }
 
 .three{
 	margin-top: -3px;
-	border: 2px solid green;
+	border: 2px solid #00a3e3;
+	border-radius: 10px;
 	margin-bottom: -110px;
 }
 
@@ -35,9 +36,10 @@ header{
 }
 
 .two{
-	border: 2px solid red;
-	border-bottom: 10px solid red;
-	margin-top: 116px;
+	border: 2px solid #f69322;
+	border-radius: 10px;
+	border-bottom: 5px solid #f69322;
+	margin-top: 132px;
 	margin-left: 247px;
 	margin-right: -8px;
 	position: fixed;
@@ -74,13 +76,22 @@ header{
 }
 
 footer{
-	text-shadow: 3px 3px 3px #00a3e3;
+	border-radius: 10px;
 	margin-left: -9px;
-	margin-bottom: -1px;
+	margin-bottom: -30px;
 	width: 100%;
-	border: 1px solid blue;
+	border: 1px solid #f69322;
 	background-color: black;
 	bottom: 0;
 	position: fixed;
+	padding-bottom: 15px;
 }
 
+a:visited,a:link{
+	color:white;
+}
+
+a:hover{
+	text-shadow: 3px 3px 3px #00a3e3;
+	color: white;
+}
