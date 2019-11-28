@@ -1,4 +1,8 @@
 header{
+	opacity: 0.9;
+	text-shadow: 3px 3px 3px #00a3e3;
+	font-family: URW Chancery L;
+	font-size: 20px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -6,44 +10,48 @@ header{
 	color: white;
 	background-color: black;
 	text-align: right;
+	margin-top: -20px;
+	padding-right: 20px;
 }
 
-#one{
+.one{
 	margin-left: -8px;
 	top: 124px;
 	position: fixed;
 	float: left;
 }
 
-#three{
+.three{
 	margin-top: -3px;
-	border: 1px solid green;
+	border: 2px solid green;
 	margin-bottom: -110px;
 }
 
-#three{
+.three{
+	text-shadow: 3px 3px 1px #f69322;
 	font-family: URW Chancery L;
 	font-size: 18px;
 	font-weight: bolder;
 }
 
-#two{
+.two{
 	border: 2px solid red;
+	border-bottom: 10px solid red;
 	margin-top: 116px;
 	margin-left: 247px;
 	margin-right: -8px;
 	position: fixed;
 }
 
-#fourth ul{
+.fourth ul{
 	list-style-type: none;
 }
 
-#fourth li{
+.fourth li{
 	display: inline;
 }
 
-#fourth{
+.fourth{
 	position: fixed;
 	margin-left: -8px;
 	margin-top: 0px;
@@ -54,3 +62,25 @@ header{
 	font-size: 20px;
 	font-weight: bolder;
 }
+
+.fifth li{
+	padding-left: 250px;
+	color: white;
+	font-family: URW Chancery L;
+	font-size: 30px;
+	font-weight: bolder;
+	list-style-type: none;
+	display: inline;
+}
+
+footer{
+	text-shadow: 3px 3px 3px #00a3e3;
+	margin-left: -9px;
+	margin-bottom: -1px;
+	width: 100%;
+	border: 1px solid blue;
+	background-color: black;
+	bottom: 0;
+	position: fixed;
+}
+
