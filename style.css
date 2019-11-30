@@ -13,6 +13,9 @@ header{
 	margin-top: -20px;
 	padding-right: 20px;
 }
+header:hover{
+		transform: rotate(360deg);
+}
 
 .one{
 	margin-left: -8px;
@@ -23,7 +26,7 @@ header{
 
 .three{
 	margin-top: -3px;
-	border: 2px solid #00a3e3;
+	border: 3px solid black;
 	border-radius: 10px;
 	margin-bottom: -110px;
 }
